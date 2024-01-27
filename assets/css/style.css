@@ -32,9 +32,10 @@
   --alice-blue: hsl(210, 100%, 97%);
   --seashell: hsl(8, 100%, 97%);
   --cadet: hsl(200, 15%, 43%);
-  --white: hsl(0, 0%, 100%);
+  --white: #ffffff;
   --black: hsl(0, 0%, 0%);
   --opal: hsl(180, 20%, 62%);
+  --banner-grey: #f0d3d38a;
 
   /**
    * typography
@@ -339,14 +340,14 @@ button, a { transition: var(--transition); }
 .header-top-btn:is(:hover, :focus) { --orange-soda: hsl(7, 72%, 46%); }
 
 .header-bottom {
-  background: var(--white);
+  background: var(--banner-grey);  /* top header color goes here!!! */
   padding-block: 25px;
 }
 
 .header-bottom .logo img { margin-inline: auto; }
 
 .navbar {
-  background: var(--white);
+  background: var(--banner-grey);
   position: fixed;
   top: 0;
   left: -310px;
@@ -846,7 +847,7 @@ button, a { transition: var(--transition); }
 
 .features-card {
   position: relative;
-  background: var(--white);
+  background: var(--banner-grey);
   padding: 40px 15px;
   border-radius: 12px;
   display: flex;
