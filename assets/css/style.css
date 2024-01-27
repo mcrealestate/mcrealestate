@@ -1644,3 +1644,17 @@ button, a { transition: var(--transition); }
   .footer-link-box { flex-basis: 700px; }
 
 }
+
+/* my style */
+
+.crop {
+  /* width: 200px; */
+  /* height: 150px; */
+  overflow: hidden;
+}
+
+.crop img {
+  /* width: 400px;
+  height: 300px; */
+  margin: 0 0 -10px 0;
+}
