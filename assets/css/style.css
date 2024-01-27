@@ -1503,7 +1503,7 @@ button, a { transition: var(--transition); }
   }
 
   .footer-brand {
-    max-width: 300px;
+    max-width: 2000px;
     margin-bottom: 0;
   }
 
