@@ -1784,12 +1784,16 @@ button, a { transition: var(--transition); }
 
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
-  cursor: pointer;
+  cursor: pointer; 
+  height: 100%;
+  width: 100%;
+  /* margin: auto; */
+  /* object-fit: contain; */
 }
 
 .row:after {
   content: "";
-  display: table;
+  display: flex;
   clear: both;
 }
 
@@ -1797,6 +1801,15 @@ button, a { transition: var(--transition); }
 .row {
 display: flex;
 object-fit: contain;
+max-height: 80px; 
+max-width: 100%;
+/* width: 100%; */
+
+}
+
+.column{
+  flex: 50%;
+  padding: 2px;
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -1807,4 +1820,16 @@ object-fit: contain;
 .active,
 .demo:hover {
   opacity: 1;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(85px, 1fr));
+  gap:2px;
+  /* grid-auto-rows: 100px; */
+  grid-auto-flow: dense;
+}
+
+.wrapper img{
+  object-fit: cover;
 }
