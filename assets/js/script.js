@@ -110,3 +110,18 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 
+// Language Change
+
+function changeLanguage(language) {
+  // Redirect to the corresponding HTML file based on the selected language
+  switch (language) {
+      case 'en':
+          window.location.href = 'index_en.html';
+          break;
+      case 'el':
+          window.location.href = 'greekmain.html';
+          break;
+      // Add more cases for other languages if needed
+  }
+}
+
