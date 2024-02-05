@@ -116,7 +116,7 @@ function changeLanguage(language) {
   // Redirect to the corresponding HTML file based on the selected language
   switch (language) {
       case 'en':
-          window.location.href = 'index_en.html';
+          window.location.href = 'index.html';
           break;
       case 'el':
           window.location.href = 'greekmain.html';
