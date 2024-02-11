@@ -112,18 +112,18 @@ function showSlides(n) {
 
 // Language Change
 
-function changeLanguage(language) {
-  // Redirect to the corresponding HTML file based on the selected language
-  switch (language) {
-      case 'en':
-          window.location.href = 'index.html';
-          break;
-      case 'el':
-          window.location.href = 'greekmain.html';
-          break;
-      // Add more cases for other languages if needed
-  }
-}
+// function changeLanguage(language) {
+//   // Redirect to the corresponding HTML file based on the selected language
+//   switch (language) {
+//       case 'el':
+//           window.location.href = 'index.html';
+//           break;
+//       case 'en':
+//           window.location.href = 'index.html';
+//           break;
+//       // Add more cases for other languages if needed
+//   }
+// }
 
 
 

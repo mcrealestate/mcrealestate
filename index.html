@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="el">
 
 <head>
   <meta charset="UTF-8">
@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,100&family=Poppins:wght@400;500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
     rel="stylesheet">
 </head>
 
@@ -42,7 +42,7 @@
 
         <ul class="header-top-list"> -->
 
-    <!-- <li>
+          <!-- <li>
             <a href="mailto:marios197@yahoo.gr" class="header-top-link">
               <ion-icon name="mail-outline"></ion-icon>
 
@@ -50,7 +50,7 @@
             </a>
           </li> -->
 
-    <!-- <li>
+          <!-- <li>
             <a href="#" class="header-top-link">
               <ion-icon name="location-outline"></ion-icon>
 
@@ -58,39 +58,39 @@
             </a>
           </li> -->
 
-    <!-- </ul>
+        <!-- </ul>
 
         <div class="wrapper">
           <ul class="header-top-social-list"> -->
 
-    <!-- <li>
+            <!-- <li>
               <a href="#" class="header-top-social-link">
                 <ion-icon name="logo-facebook"></ion-icon>
               </a>
             </li> -->
 
-    <!-- <li>
+            <!-- <li>
               <a href="#" class="header-top-social-link">
                 <ion-icon name="logo-twitter"></ion-icon>
               </a>
             </li> -->
 
-    <!-- <li>
+            <!-- <li>
               <a href="#" class="header-top-social-link">
                 <ion-icon name="logo-instagram"></ion-icon>
               </a>
             </li> -->
 
-    <!-- <li>
+            <!-- <li>
               <a href="#" class="header-top-social-link">
                 <ion-icon name="logo-pinterest"></ion-icon>
               </a>
             </li> -->
 
-    <!-- </ul> -->
+          <!-- </ul> -->
 
-    <!-- <button class="header-top-btn">Add Listing</button> -->
-    <!-- </div>
+          <!-- <button class="header-top-btn">Add Listing</button> -->
+        <!-- </div>
 
       </div>
     </div> -->
@@ -107,6 +107,10 @@
 
         <nav class="navbar" data-navbar>
 
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
           <div class="navbar-top">
 
             <a href="#" class="logo">
@@ -119,7 +123,7 @@
 
           </div>
 
-          <div class="navbar-bottom">
+          <div class="collapse navbar-collapse">
             <ul class="navbar-list">
 
               <!-- <li>
@@ -127,7 +131,7 @@
               </li> -->
 
               <li>
-                <a href="#about" class="navbar-link" data-nav-link>About</a>
+                <a href="#about" class="navbar-link" data-nav-link>Σχετικά με εμάς</a>
               </li>
 
               <!-- <li>
@@ -135,7 +139,7 @@
               </li> -->
 
               <li>
-                <a href="#service" class="navbar-link" data-nav-link>Services</a>
+                <a href="#service" class="navbar-link" data-nav-link>Υπηρεσίες</a>
               </li>
 
               <!-- <li>
@@ -143,41 +147,87 @@
               </li> -->
 
               <li>
-                <a href="#test" class="navbar-link" data-nav-link>Contact</a>
+                <a href="#test" class="navbar-link" data-nav-link>Επικοινωνία</a>
               </li>
 
+              <li class= "nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <!-- <li style = "text-align: right;">
+                <a href="en/index.html" class="navbar-lang" data-nav-link>English</a></li>
+            
+            
+              <li style = "text-align: right;"> <a href="#" class="navbar-lang" data-nav-link>Ελληνικά</a></li> -->
+
             </ul>
+
+            
+
           </div>
 
         </nav>
 
+        <!-- <span class="navbar-text">
+          <a href="en/index.html" class="navbar-lang" data-nav-link>English</a></li>
+            
+            
+            <a href="#" class="navbar-lang" data-nav-link>Ελληνικά</a>
+        </span> -->
+
+<!--         
+          <a href="en/index.html" class="navbar-lang" data-nav-link>English</a>
+      
+      
+        <a href="#" class="navbar-lang" data-nav-link>Ελληνικά</a> -->
+
         <div class="header-bottom-actions">
 
-          <button onclick="changeLanguage('en')" aria-label="Search">
-            <span>English</span>
-          </button>
+            <!-- <button onclick="changeLanguage('en')" aria-label="Search">
+                <span>English</span>
+              </button>
+          
+              <button onclick="changeLanguage('el')" aria-label="Search">
+                <span>Ελληνικά</span>
+  
+            </button> -->
+  
 
-          <button onclick="changeLanguage('el')" aria-label="Search">
-            <span>Ελληνικά</span>
+          <!-- <button class="header-bottom-actions-btn" aria-label="Search">
+            <ion-icon name="search-outline"></ion-icon>
 
-          </button>
+            <span>Search</span>
+          </button> -->
 
           <!-- <button class="header-bottom-actions-btn" aria-label="Profile">
             <ion-icon name="person-outline"></ion-icon>
 
-            <span>Profile</span>
-          </button>
+           <li style = "text-align: right;">
+                <a href="en/index.html" class="navbar-lang" data-nav-link>English</a></li>
+            
+            
+              <li style = "text-align: right;"> <a href="#" class="navbar-lang" data-nav-link>Ελληνικά</a></li> 
 
-          <button class="header-bottom-actions-btn" aria-label="Cart">
+            <span>Profile</span>
+          </button> -->
+
+          <!-- <button class="header-bottom-actions-btn" aria-label="Cart">
             <ion-icon name="cart-outline"></ion-icon>
 
             <span>Cart</span>
-          </button> -->
+          </button>  -->
 
           <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
             <ion-icon name="menu-outline"></ion-icon>
 
-            <span>Menu</span>
+            <span>Μενού</span>
           </button>
 
         </div>
@@ -185,8 +235,10 @@
       </div>
     </div>
 
-
   </header>
+
+
+
 
 
   <main>
@@ -217,8 +269,7 @@
           </div>
 
           <figure class="hero-banner">
-            <img src="./assets/images/office2.jpg" alt="Modern house model" width="600px" ,
-              style=" 300px; height: 337px; object-fit: cover; object-position: 0 35%;">
+            <img src="./assets/images/office2.jpg" alt="Modern house model" width= "600px", style=" 300px; height: 337px; object-fit: cover; object-position: 0 35%;">
           </figure>
 
         </div>
@@ -235,28 +286,26 @@
       <section class="about" id="about">
         <div class="container">
 
-          <figure class="about-banner">
+            <figure class="about-banner">
 
-            <img src="./assets/images/office1.jpg" alt="House interior" height="600px">
-
-            <figcaption class="image-caption">
-              <a
-                href="https://vardalachou.gr/%CE%B1%CF%81%CF%87%CE%B9%CF%84%CE%B5%CE%BA%CF%84%CE%BF%CE%BD%CE%B9%CE%BA%CE%AD%CF%82-%CE%BC%CE%B5%CE%BB%CE%AD%CF%84%CE%B5%CF%82/%CE%BA%CF%84%CE%AF%CF%81%CE%B9%CE%BF-%CE%B3%CF%81%CE%B1%CF%86%CE%B5%CE%AF%CF%89%CE%BD-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%AE/">
-                cc: Vardalachou, 2015
-              </a>
-            </figcaption>
-          </figure>
-
-
+                <img src="./assets/images/office1.jpg" alt="House interior" height="600px">
+    
+                <figcaption class="image-caption">
+                  <a
+                    href="https://vardalachou.gr/%CE%B1%CF%81%CF%87%CE%B9%CF%84%CE%B5%CE%BA%CF%84%CE%BF%CE%BD%CE%B9%CE%BA%CE%AD%CF%82-%CE%BC%CE%B5%CE%BB%CE%AD%CF%84%CE%B5%CF%82/%CE%BA%CF%84%CE%AF%CF%81%CE%B9%CE%BF-%CE%B3%CF%81%CE%B1%CF%86%CE%B5%CE%AF%CF%89%CE%BD-%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%AE/">
+                    cc: Βαρδαλάχου, 2015
+                  </a>
+                </figcaption>
+              </figure>
 
           <div class="about-content">
 
-            <p class="section-subtitle">About Us</p>
+            <p class="section-subtitle">Σχετικά με εμάς</p>
 
             <!-- <h2 class="h2 section-title">The Leading Real Estate Rental Marketplace.</h2> -->
 
             <p class="about-text">
-              With over 20 years of experience, our lead real estate agent is dedicated to the field since 2001.
+              Με παραπάνω από 20 χρόνια εμπειρίας, ο διευθύνων μεσίτης μας είναι αφοσιωμένος στο χώρο από το 2001. 
             </p>
 
             <ul class="about-list">
@@ -266,7 +315,7 @@
                   <ion-icon name="home-outline"></ion-icon>
                 </div>
 
-                <p class="about-item-text">Smart Home Solutions</p>
+                <p class="about-item-text">Έξυπνες Λύσεις Σπιτιών</p>
               </li>
 
               <li class="about-item">
@@ -274,7 +323,7 @@
                   <ion-icon name="leaf-outline"></ion-icon>
                 </div>
 
-                <p class="about-item-text">Beautiful Locations</p>
+                <p class="about-item-text">Όμορφες Τοποθεσίες</p>
               </li>
 
               <li class="about-item">
@@ -282,7 +331,7 @@
                   <ion-icon name="wine-outline"></ion-icon>
                 </div>
 
-                <p class="about-item-text">Exceptional Design</p>
+                <p class="about-item-text">Καταπληκτικός Σχεδιασμός</p>
               </li>
 
               <li class="about-item">
@@ -290,7 +339,7 @@
                   <ion-icon name="shield-checkmark-outline"></ion-icon>
                 </div>
 
-                <p class="about-item-text">Personalized Property Consultations</p>
+                <p class="about-item-text">Προσωποποιημένες Προτάσεις Ακινήτων</p>
               </li>
 
             </ul>
@@ -318,7 +367,7 @@
       <section class="service" id="service">
         <div class="container">
 
-          <p class="section-subtitle">Our Services</p>
+          <p class="section-subtitle">Οι Υπηρεσίες μας</p>
 
           <!-- <h2 class="h2 section-title">Our Main Focus</h2> -->
 
@@ -332,16 +381,15 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#property">Buy a home</a>
+                  <a href="#property">Αγορά Ακινήτων</a>
                 </h3>
 
                 <p class="card-text">
-                  We will match you with a house you will want
-                  to call home.
+                  Η ομάδα μας θα σας κατευθύνει στην αγορά ακινήτου.               
                 </p>
 
                 <a href="#property" class="card-link">
-                  <span>Find A Home</span>
+                  <span>Επιλέξτε Ακίνητο</span>
 
                   <ion-icon name="arrow-forward-outline"></ion-icon>
                 </a>
@@ -357,15 +405,15 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#land">Buy Land</a>
+                  <a href="#land">Αγορά Οικοπέδων</a>
                 </h3>
 
                 <p class="card-text">
-                  We will guide you through ideal land opportunities.
+                  Η ομάδα μας θα σας κατευθύνει προς την ιδανική επιλογή οικοπέδου. 
                 </p>
 
                 <a href="#land" class="card-link">
-                  <span>Find Land</span>
+                  <span>Βρείτε Οικόπεδο</span>
 
                   <ion-icon name="arrow-forward-outline"></ion-icon>
                 </a>
@@ -381,15 +429,15 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="#">Sell Property</a>
+                  <a href="#">Πώληση Ακινήτων</a>
                 </h3>
 
                 <p class="card-text">
-                  We will match you the perfect buyer for your property.
+                  Η ομάδα μας θα σας βοηθήσει στην ανεύρεση αγοραστή της ακίνητης περιουσίας σας. 
                 </p>
 
                 <a href="#test" class="card-link">
-                  <span>Contact Us</span>
+                  <span>Επικοινωνία</span>
 
                   <ion-icon name="arrow-forward-outline"></ion-icon>
                 </a>
@@ -413,7 +461,7 @@
       <section class="property" id="property">
         <div class="container">
 
-          <p class="section-subtitle">Properties</p>
+          <p class="section-subtitle">Ακίνητα</p>
 
           <ul class="property-list has-scrollbar">
 
@@ -422,21 +470,20 @@
 
                 <figure class="card-banner">
 
-                  <a href="house1.html">
+                  <a href="house1gr.html">
                     <img src="./assets/images/2.jpg" alt="Aianteio Building" class="w-100">
                   </a>
 
-                  <div class="card-badge green">For Sale</div>
+                  <div class="card-badge green">Προς Πώληση</div>
 
                   <div class="banner-actions">
 
-                    <a
-                      href="https://www.google.com/maps/place/37%C2%B055'23.4%22N+23%C2%B027'16.7%22E/@37.9230318,23.4520898,631m/data=!3m1!1e3!4m4!3m3!8m2!3d37.923156!4d23.45464?entry=ttu">
-                      <button class="banner-actions-btn">
-                        <ion-icon name="location"></ion-icon>
-                        <address>Aianteio, Salamina</address>
-                      </button>
-                    </a>
+                    <a href="https://www.google.com/maps/place/37%C2%B055'23.4%22N+23%C2%B027'16.7%22E/@37.9230318,23.4520898,631m/data=!3m1!1e3!4m4!3m3!8m2!3d37.923156!4d23.45464?entry=ttu">
+                        <button class="banner-actions-btn">
+                          <ion-icon name="location"></ion-icon>
+                          <address>Αιάντειο, Σαλαμίνα</address>
+                        </button>
+                      </a>
 
                     <!-- <button class="banner-actions-btn">
                       <ion-icon name="camera"></ion-icon>
@@ -461,13 +508,11 @@
                   </div>
 
                   <h3 class="h3 card-title">
-                    <a href="house1.html">Aianteio Building</a>
+                    <a href="house1gr.html">Αιάντειο</a>
                   </h3>
 
                   <p class="card-text">
-                    Salamina Property offers a three-story building with 415 m², including a 103 m² residence, two
-                    unfinished residences, and parking. With sea and mountain views, 100m from the sea, it's ideal for
-                    investment and Airbnb, conveniently located near transportation and amenities.
+                    Τριώροφο κτίριο 415 m², που περιλαμβάνει κατοικία 103 m², δύο ημιτελείς κατοικίες και χώρο στάθμευσης. Με θέα θάλασσα και βουνό, 100 μέτρα από την παραλία, είναι ιδανικό για επένδυση και Airbnb, σε εξαιρετική τοποθεσία κοντά σε συγκοινωνίες και καταστήματα.
                   </p>
 
                   <ul class="card-list">
@@ -477,7 +522,7 @@
 
                       <ion-icon name="bed-outline"></ion-icon>
 
-                      <span>Bedrooms</span>
+                      <span>Μπάνια</span>
                     </li>
 
                     <li class="card-item">
@@ -485,7 +530,7 @@
 
                       <ion-icon name="man-outline"></ion-icon>
 
-                      <span>Bathrooms</span>
+                      <span>Υπνοδωμάτια</span>
                     </li>
 
                     <li class="card-item">
@@ -493,7 +538,7 @@
 
                       <ion-icon name="square-outline"></ion-icon>
 
-                      <span>Residence</span>
+                      <span>Εμβαδόν Κτιρίου</span>
                     </li>
 
                     <li class="card-item">
@@ -501,7 +546,7 @@
 
                       <ion-icon name="square-outline"></ion-icon>
 
-                      <span>Plot Area</span>
+                      <span>Εμβαδόν Οικοπέδου</span>
                     </li>
 
                   </ul>
@@ -552,22 +597,20 @@
 
                 <figure class="card-banner">
 
-                  <a href="house2.html">
+                  <a href="house2gr.html">
                     <img src="./assets/images/House2/HOUSE2.jpg" alt="Nea Salamina Building" class="w-100">
                   </a>
 
-                  <div class="card-badge green">For Sale</div>
+                  <div class="card-badge green">Προς Πώληση</div>
 
                   <div class="banner-actions">
 
-                    <a
-                      href="https://www.google.com/maps/place/%CE%9A%CF%85%CF%87%CF%81%CE%AD%CF%89%CF%82+52,+%CE%A0%CE%B1%CE%BB%CE%BF%CF%8D%CE%BA%CE%B9%CE%B1+189+00,+%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/@37.9674679,23.5124278,17z/data=!4m16!1m9!3m8!1s0x14a1b13031acb00b:0x834f55e2988076f1!2zzprPhc-Hz4HOrc-Jz4IgNTIsIM6gzrHOu86_z43Ous65zrEgMTg5IDAwLCDOlc67zrvOrM60zrE!3b1!8m2!3d37.9672964!4d23.5124258!10e5!16s%2Fg%2F11jwm89fkf!3m5!1s0x14a1b13031acb00b:0x834f55e2988076f1!8m2!3d37.9672964!4d23.5124258!16s%2Fg%2F11jwm89fkf?entry=ttu">
-                      <button class="banner-actions-btn">
-                        <ion-icon name="location"></ion-icon>
-                        <address>Nea Salamina, Salamina</address>
-                      </button>
-                    </a>
-
+                    <a href="https://www.google.com/maps/place/%CE%9A%CF%85%CF%87%CF%81%CE%AD%CF%89%CF%82+52,+%CE%A0%CE%B1%CE%BB%CE%BF%CF%8D%CE%BA%CE%B9%CE%B1+189+00,+%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1/@37.9674679,23.5124278,17z/data=!4m16!1m9!3m8!1s0x14a1b13031acb00b:0x834f55e2988076f1!2zzprPhc-Hz4HOrc-Jz4IgNTIsIM6gzrHOu86_z43Ous65zrEgMTg5IDAwLCDOlc67zrvOrM60zrE!3b1!8m2!3d37.9672964!4d23.5124258!10e5!16s%2Fg%2F11jwm89fkf!3m5!1s0x14a1b13031acb00b:0x834f55e2988076f1!8m2!3d37.9672964!4d23.5124258!16s%2Fg%2F11jwm89fkf?entry=ttu">
+                        <button class="banner-actions-btn">
+                          <ion-icon name="location"></ion-icon>
+                          <address>Νέα Σαλαμίνα, Σαλαμίνα</address>
+                        </button>
+                      </a>
 
                   </div>
 
@@ -580,13 +623,11 @@
                   </div>
 
                   <h3 class="h3 card-title">
-                    <a href="house2.html">Nea Salamina Building</a>
+                    <a href="house2gr.html">Νέα Σαλαμίνα</a>
                   </h3>
 
                   <p class="card-text">
-                    Luxurious three-storey detached house with basement in Nea Salamina, Salamina. Features include
-                    spacious rooms, jacuzzi, guest floor, large garden, three parking spaces, and additional
-                    ground-floor building with kitchen and BBQ
+                    Πολυτελής τριώροφη μονοκατοικία με υπόγειο στη Νέα Σαλαμίνα. Διαθέτει ευρύχωρα δωμάτια, τζακούζι, ξενώνα, μεγάλο κήπο, τρεις θέσεις στάθμευσης και επιπλέον ισόγειο κτίριο με κουζίνα και BBQ.
                   </p>
 
                   <ul class="card-list">
@@ -596,7 +637,7 @@
 
                       <ion-icon name="bed-outline"></ion-icon>
 
-                      <span>Bedrooms</span>
+                      <span>Μπάνια</span>
                     </li>
 
                     <li class="card-item">
@@ -604,7 +645,7 @@
 
                       <ion-icon name="man-outline"></ion-icon>
 
-                      <span>Bathrooms</span>
+                      <span>Υπνοδωμάτια</span>
                     </li>
 
                     <li class="card-item">
@@ -612,7 +653,7 @@
 
                       <ion-icon name="square-outline"></ion-icon>
 
-                      <span>Main Residence</span>
+                      <span>Εμβαδόν Κύριας Κατοικίας</span>
                     </li>
 
                     <li class="card-item">
@@ -620,7 +661,7 @@
 
                       <ion-icon name="square-outline"></ion-icon>
 
-                      <span>Guest House</span>
+                      <span>Εμβαδόν Ξενώνα</span>
                     </li>
 
                   </ul>
@@ -671,21 +712,20 @@
 
                 <figure class="card-banner">
 
-                  <a href="house3.html">
+                  <a href="house3gr.html">
                     <img src="./assets/images/House3/3.jpg" alt="Doroto Building" class="w-100">
                   </a>
 
-                  <div class="card-badge green">For Sale</div>
+                  <div class="card-badge green">Προς Πώληση</div>
 
                   <div class="banner-actions">
 
-                    <a
-                      href="https://www.google.com/maps/place/37%C2%B056'53.1%22N+23%C2%B030'44.8%22E/@37.948071,23.5098671,563m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d37.948071!4d23.512442?entry=ttu">
-                      <button class="banner-actions-btn">
-                        <ion-icon name="location"></ion-icon>
-                        <address>Doroto, Salamina</address>
-                      </button>
-                    </a>
+                    <a href="https://www.google.com/maps/place/37%C2%B056'53.1%22N+23%C2%B030'44.8%22E/@37.948071,23.5098671,563m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d37.948071!4d23.512442?entry=ttu">
+                        <button class="banner-actions-btn">
+                          <ion-icon name="location"></ion-icon>
+                          <address>Ντοροτό, Σαλαμίνα</address>
+                        </button>
+                      </a>
 
                   </div>
 
@@ -698,13 +738,11 @@
                   </div>
 
                   <h3 class="h3 card-title">
-                    <a href="house3.html">Doroto Building</a>
+                    <a href="house3gr.html">Ντοροτό</a>
                   </h3>
 
                   <p class="card-text">
-                    Scenic two-storey house in Doroto, Salamina, with a basement, ground floor, and pool. Independent
-                    residences, solar panels, air conditioners, and convenient proximity to schools, transport, shops,
-                    and beaches.
+                    Πολυτελής διώροφη κατοικία στο Ντοροτό Σαλαμίνας με υπόγειο, ισόγειο και πισίνα. Ανεξάρτητες κατοικίες, ηλιακά panel, κλιματιστικά και κοντινή απόσταση από σχολεία, συγκοινωνίες, καταστήματα και παραλίες.
                   </p>
 
                   <ul class="card-list">
@@ -714,7 +752,7 @@
 
                       <ion-icon name="bed-outline"></ion-icon>
 
-                      <span>Bedrooms</span>
+                      <span>Υπνοδωμάτια</span>
                     </li>
 
                     <li class="card-item">
@@ -722,7 +760,7 @@
 
                       <ion-icon name="man-outline"></ion-icon>
 
-                      <span>Bathrooms</span>
+                      <span>Μπάνια</span>
                     </li>
 
                     <li class="card-item">
@@ -730,7 +768,7 @@
 
                       <ion-icon name="square-outline"></ion-icon>
 
-                      <span>Basement</span>
+                      <span>Υπόγειο</span>
                     </li>
 
                     <li class="card-item">
@@ -738,7 +776,7 @@
 
                       <ion-icon name="square-outline"></ion-icon>
 
-                      <span>First Floor</span>
+                      <span>Ισόγειο</span>
                     </li>
 
                   </ul>
@@ -905,15 +943,15 @@
 
           <!-- </ul> -->
 
-      </div>
+        </div> 
       </section>
 
-
+ 
 
       <section class="land" id="land"></section>
       <div class="container">
 
-        <p class="section-subtitle">Land Opportunities</p>
+        <p class="section-subtitle">Οικόπεδα προς Πώληση</p>
 
         <ul class="property-list has-scrollbar">
 
@@ -922,18 +960,18 @@
 
               <figure class="card-banner">
 
-                <a href="land1.html">
+                <a href="land1gr.html">
                   <img src="./assets/images//Land1/2.JPG" alt="Land Paloukia" class="w-100">
                 </a>
 
-                <div class="card-badge green">For Sale</div>
+                <div class="card-badge green">Προς Πώληση</div>
 
                 <div class="banner-actions">
 
                   <button class="banner-actions-btn">
                     <ion-icon name="location"></ion-icon>
 
-                    <address>Paloukia, Salamina</address>
+                    <address>Παλούκια, Σαλαμίνα</address>
                   </button>
 
                   <!-- <button class="banner-actions-btn">
@@ -959,13 +997,12 @@
                 </div>
 
                 <h3 class="h3 card-title">
-                  <a href="land1.html">Paloukia Land</a>
+                  <a href="land1gr.html">Παλούκια</a>
                 </h3>
 
                 <p class="card-text">
-                  Listed corner plot, 506 m², with 14m facing Hippokratous Avenue, 36m along an 8m-wide asphalted
-                  road. Excellent location, 800m from the port, allows for approx. 550 m² construction. Includes
-                  an 80 m² uninhabitable building.
+                    Γωνιακό οικόπεδο, 506 m², με πρόσωπο στη λεωφόρο Ιπποκράτους. Εξαιρετική τοποθεσία, 800μ από το λιμάνι, επιτρέπει κατασκευή περίπου 550 m². Περιλαμβάνει
+                    μη κατοικίσιμο κτίριο 80 m².
                 </p>
 
                 <ul class="card-list">
@@ -975,25 +1012,25 @@
 
                     <ion-icon name="square-outline"></ion-icon>
 
-                    <span>Plot Area</span>
-                  </li>
+                    <span>Εμβαδόν Οικοπέδου</span>
+                </li>
 
-
-                  <li class="card-item">
+                
+                <li class="card-item">
                     <strong>550 m²</strong>
 
                     <ion-icon name="square-outline"></ion-icon>
 
-                    <span>Building Possibility</span>
-                  </li>
+                    <span>Εμβαδόν Κτίσιμου Κτιρίου</span>
+                </li>
 
-                  <li class="card-item">
+                <li class="card-item">
                     <strong>80 m²</strong>
 
                     <ion-icon name="square-outline"></ion-icon>
 
-                    <span>Available building on land</span>
-                  </li>
+                    <span>Ακατοίκητο Κτίριο</span>
+                </li>
 
                 </ul>
 
@@ -1040,11 +1077,11 @@
 
 
 
-          <!-- 
+      <!-- 
         - #BLOG
       -->
 
-          <!-- <section class="blog" id="blog">
+      <!-- <section class="blog" id="blog">
         <div class="container">
 
           <p class="section-subtitle">News & Blogs</p>
@@ -1219,14 +1256,14 @@
 
 
 
-          <!-- 
+      <!-- 
         - #CTA
       -->
 
-          <section class="cta">
-            <div class="container">
+      <section class="cta">
+        <div class="container">
 
-              <!-- <div class="cta-card">
+          <!-- <div class="cta-card">
             <div class="card-content">
               <h2 class="h2 card-title">Looking for a dream home?</h2>
 
@@ -1240,8 +1277,8 @@
             </button>
           </div> -->
 
-            </div>
-          </section>
+        </div>
+      </section>
 
     </article>
   </main>
@@ -1272,10 +1309,10 @@
         <ul class="contact">
 
           <li>
-            <a href="#" class="contact-link">
+            <class="contact-link">
               <ion-icon name="location-outline"></ion-icon>
-              <address>Mpoumpoulinas 16, Ag. Mavra, Salamina, 18900</address>
-            </a>
+              <address>Μπουμπουλίνας 16, Αγ. Μαύρα, Σαλαμίνα, 18900</address>
+            
           </li>
           <br>
           <li>
@@ -1296,13 +1333,11 @@
           </li>
           <br>
           <li>
-            <a href="working hours" class="contact-link">
+            <class="contact-link">
               <ion-icon name="time-outline"></ion-icon>
-
-              <span>
-                <p>Mon – Fri: 8:00 AM – 21:00 PM EET (UTC+2)</p> Sat: 9:00 AM – 14:00 PM EET (UTC+2)
-              </span>
-            </a>
+                
+              <span><p>Δευ – Παρ: 8:00 AM – 21:00 μ.μ. EET (UTC+2)</p>Σαβ.: 9:00 – 14:00 μ.μ. ΕΕΤ (UTC+2)</span>
+            
           </li>
 
         </ul>
@@ -1437,14 +1472,6 @@
         </div> -->
 
       </div>
-      <!-- <div> LANGUAGE CHANGE TEST
-        <p class="lang lang-en">My english text</p>
-        <p class="lang lang-de">Τεστ</p>
-      </div>
-      <select id="langSelector">
-        <option value="en">English</option>
-        <option value="de">Πετυχε!</option>
-    </select> -->
     </div>
 
     <div class="footer-bottom">

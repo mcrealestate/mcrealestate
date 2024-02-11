@@ -1833,3 +1833,30 @@ max-width: 100%;
 .wrapper img{
   object-fit: cover;
 }
+
+/* Language Change */
+
+/* .navbar-lang {
+  color: var(--prussian-blue);
+  font-size: var(--fs-5);
+  font-weight: var(--fw-500);
+  float: right;
+}
+
+.navbar-lang:is(:hover, :focus) { color: black; } */
+
+/* ul {
+  display: block;
+  padding: 0;
+} */
+
+/* #left-align {
+  /* Remove float */
+  /* position: relative;
+  bottom: 300px;
+} */ 
+
+/* // Initialization for ES Users */
+import { Dropdown, initMDB } from "mdb-ui-kit";
+
+initMDB({ Dropdown });
