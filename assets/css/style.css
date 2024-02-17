@@ -1557,10 +1557,11 @@ button, a { transition: var(--transition); }
 
   .header-bottom-actions-btn:last-child,
   .navbar-top,
-  .overlay { display: none; }
+  .overlay { display: none;}
 
   .navbar,
-  .navbar.active { all: unset; }
+  .navbar.active { all: unset; 
+  }
 
   .navbar-list {
     display: flex;
@@ -1860,3 +1861,55 @@ max-width: 100%;
 import { Dropdown, initMDB } from "mdb-ui-kit";
 
 initMDB({ Dropdown });
+
+/* Contact */
+
+.my-contact-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 500px;
+}
+
+.contact {
+  flex-direction: column;
+}
+
+.page-container {
+  padding-top: 50px; 
+}
+
+/* contact2 */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #bf272e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #bf272e;
+}
+
+.form-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+}
