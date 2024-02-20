@@ -47,5 +47,25 @@
             <input type="submit" value="Αποστολή">
         </form>
 
+
+        <script>
+          var level = document.location.search.replace(/\?/, '') || 0
+          $('#nested').attr('href', 'frame.nested.html?' + ++level)
+        </script>
+    
+        <script>
+          var iFrameResizer = {
+            onMessage: function(message) {
+              alert(message, parentIFrame.getId())
+            }
+          }
+        </script>
+    
+        <script
+          type="text/javascript"
+          src="assets/js/iframeResizer.contentWindow.min.js"
+          defer
+        ></script>
+
     </body>
         
