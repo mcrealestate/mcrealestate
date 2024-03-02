@@ -23,8 +23,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,100&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -84,47 +84,32 @@
 
     </header>
 
-    <div class="page-container">
-    <h3>
-        <p class="section-subtitle">Contact Form </p>
-    </h3>
-
-    <iframe src="contactform.html" class="form-container"  style="
-    position: absolute;
-    /* top: 0px; */
-    /* bottom: 0px;
-    right: 0px; */
-    width: 100%;
-    border: none;
-    margin: 0;
-    /* padding: 0; */
-    overflow: hidden;
-    z-index: 999999;
-    height: 100%;
-  " >
-
-        <!-- <form action="https://formspree.io/f/mvoeawez" method="POST">
-            <label for="fname">Όνομα</label>
-            <input type="text" id="fname" name="firstname" placeholder="Το όνομά σας..">
-
-            <label for="lname">Επώνυμο</label>
-            <input type="text" id="lname" name="lastname" placeholder="Το επίθετό σας..">
-
-            <label for="lname">Email</label>
-            <input type="text" id="email" name="emailaddress" placeholder="Το email σας..">
-
-            <label for="lname">Τηλέφωνο</label>
-            <input type="text" id="tel" name="telephone" placeholder="Το τηλέφωνό σας..">
-
-            <label for="subject">Θέμα</label>
-            <textarea id="subject" name="message" placeholder="Γράψτε εδώ.." style="height:200px"></textarea>
-
-            <input type="submit" value="Αποστολή">
-        </form> -->
-    
-</iframe>
-
+    <div style="margin:20px;">
+        <!-- <script src="./assets/js/iframeResizer.min.js"></script> -->
+        <iframe src="contactform.html" width="48%" scrolling="no" style="border: none; margin: auto; display: block;"></iframe>
     </div>
+    <script>
+        iFrameResize({ log: true }, '#myIframe')
+    </script>
+    <!-- <script src="jquery-3.7.1.min.js"></script> -->
+    <script src="jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="../assets/js/iframeResizer.js"></script>
+    <script type="text/javascript">
+        /*
+         * If you do not understand what the code below does, then please just use the
+         * following call in your own code.
+         *
+         *   iFrameResize({log:true});
+         *
+         * Once you have it working, set the log option to false.
+         */
+  
+        iFrameResize({
+          log: true, // Enable console logging
+          enablePublicMethods: true, // Enable methods within iframe hosted page
+          enableInPageLinks: true,
+        })
+      </script>
 
     <!-- 
     - custom js link
