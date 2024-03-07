@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<?php $img1 = "../assets/images/House3/2.jpg"; ?>
+
+<html lang="el">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+    - logo
+  -->
+    <link rel="shortcut icon" href="./logoV2.svg" type="image/svg+xml">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+
+        <div class="overlay" data-overlay></div>
+
+        <div class="header-bottom">
+            <div class="container">
+
+
+                <a href="../index.html" class="logo">
+                    <div class="crop">
+                        <img src="../assets/images/logoV2.svg" alt="MC logo" width="50">
+                    </div>
+                </a>
+
+                <nav class="navbar" data-navbar>
+
+                    <div class="navbar-top">
+
+                        <a href="#" class="logo">
+                            <img src="../assets/images/logoV2.svg" alt="MC logo">
+                        </a>
+
+                        <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+
+                    </div>
+
+                    <div class="navbar-bottom">
+                        <ul class="navbar-list">
+
+                            <li>
+                                <a href="../index.html" class="navbar-link" data-nav-link>Αρχική</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </nav>
+
+                <div class="header-bottom-actions">
+
+                    <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
+                        <ion-icon name="menu-outline"></ion-icon>
+
+                        <span>Μενού</span>
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+
+
+    <div class="container">
+
+        <ul class="property-list has-scrollbar">
+            <li>
+                <div class="property-card">
+
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                            <!-- <div class="numbertext">3 / 3</div> -->
+                            <img src="../assets/images/House4/430278369_426397193382695_3308948331717720457_n.jpg" style="width:100%">
+                            <!-- <div class="text">Εξωτερική Φωτογραφία</div> -->
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+
+                    </div>
+
+                    <br>
+
+                    <div class="wrapper">
+
+
+
+                        <img class="demo cursor" src="../assets/images/House4/430278369_426397193382695_3308948331717720457_n.jpg" style="width:100%"
+                            onclick="currentSlide(1)">
+
+                    </div>
+
+                    <div class="card-content">
+
+                        <div class="card-price">
+                            <strong>158.000 €</strong>
+                        </div>
+
+                        <h3 class="h3 card-title">
+                            <a href="#">Σελήνια</a>
+                        </h3>
+
+                        <p class="card-text">
+                            Διαμέρισμα 2ου ορόφου στην περιοχή Σελήνια, Σαλαμίνα, με εβαδόν 75 m². 
+                        </p><br>
+                        <p>
+                            Αποτελείται από δύο κρεβατοκάμαρες, μπάνιο, κουζίνα, τραπεζαρία και καθιστικό. 
+                        </p><br>
+                        <p>
+                            Γωνιακό, διαμπερές και φωτεινό, δίπλα στη θάλασσα, με απεριόριστη θέα. 
+                        </p><br>
+                        <p>
+                            Στην τιμή περιλαμβάνεται θέση στάθμευσης στην πυλωτή και αποθήκη. 
+                        </p>
+                        <br>
+                        <p>
+                            Αυτόνομη Θέρμανση
+                            Ενεργειακό Τζάκι
+                            Κλιματισμός
+                            BBQ
+                            Ηλιακός Θερμοσίφωνας
+                            Κουφώματα Αλουμινίου
+                            Πόρτα Ασφαλείας
+                        </p>
+                        <br>
+                        <p> Έτος Κατασκευής: 2007 </p>
+
+                        <ul class="card-list">
+
+                            <li class="card-item">
+                                <strong>2</strong>
+
+                                <ion-icon name="bed-outline"></ion-icon>
+
+                                <span>Υπνοδωμάτια</span>
+                            </li>
+
+                            <li class="card-item">
+                                <strong>1</strong>
+
+                                <ion-icon name="man-outline"></ion-icon>
+
+                                <span>Μπάνια</span>
+                            </li>
+
+                            <li class="card-item">
+                                <strong>75 m²</strong>
+
+                                <ion-icon name="square-outline"></ion-icon>
+
+                                <span>Εμβαδόν</span>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="card-footer">
+
+                        <!-- <div class="card-author">
+
+                    <figure class="author-avatar">
+                      <img src="../assets/images/author.jpg" alt="William Seklo" class="w-100">
+                    </figure>
+
+                    <div>
+                      <p class="author-name">
+                        <a href="#">William Seklo</a>
+                      </p>
+
+                      <p class="author-title">Estate Agents</p>
+                    </div>
+
+                  </div> -->
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!4v1709840683437!6m8!1m7!1sPn7bvoHDWc7HtjTlaVVBVQ!2m2!1d37.9293952291146!2d23.54317874598602!3f351.84656418214905!4f11.217731255506052!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </div>
+
+                </div>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <script src="../assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@latest/dist/ionicons/ionicons.js"></script>
+
+
+</body>
