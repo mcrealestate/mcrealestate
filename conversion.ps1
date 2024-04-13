@@ -1,8 +1,8 @@
-$IN_DIR = "C:\Users\annammc\OneDrive - Universitetet i Oslo\Documents\GitHub\images\House5\"
+$IN_DIR = "C:\Users\annammc\OneDrive - Universitetet i Oslo\Documents\GitHub\images\House6\"
 $EXT = "*.jpg"
 $LOGO_DIR = "C:\Users\annammc\OneDrive - Universitetet i Oslo\Documents\GitHub\images\logoV2.png"
-$OUT_DIR = "C:\Users\annammc\OneDrive - Universitetet i Oslo\Documents\GitHub\marios-realestate.gr\assets\images\House5"
-$LOGO_SIZE = "400,400" #for house1,4= 700, house2 = 200, house3 = 400
+$OUT_DIR = "C:\Users\annammc\OneDrive - Universitetet i Oslo\Documents\GitHub\marios-realestate.gr\assets\images\House6"
+$LOGO_SIZE = "700,700" #for house1,4= 700, house2 = 200, house3 + 4 + 5 = 400, house 6 = 700
 # $PREFIX="h1"
 
 Write-Output "Watermarking images..."
