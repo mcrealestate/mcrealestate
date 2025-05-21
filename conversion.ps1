@@ -1,7 +1,7 @@
-$IN_DIR = "C:\Users\annammc\OneDrive - Universitetet i Oslo\Documents\GitHub\images\House9\"
-$EXT = "*.jpg"
+$IN_DIR = "C:\Users\annammc\OneDrive - Universitetet i Oslo\Documents\GitHub\images\Land4\"
+$EXT = "*.jpeg"
 $LOGO_DIR = "C:\Users\annammc\OneDrive - Universitetet i Oslo\Documents\GitHub\images\logoV2.png"
-$OUT_DIR = "C:\Users\annammc\OneDrive - Universitetet i Oslo\Documents\GitHub\marios-realestate.gr\assets\images\House9"
+$OUT_DIR = "C:\Users\annammc\OneDrive - Universitetet i Oslo\Documents\GitHub\marios-realestate.gr\assets\images\Land4"
 $LOGO_SIZE = "700,700" #for house1,4= 700, house2 = 200, house3 + 4 + 5 = 400, house 6 = 700
 # $PREFIX="h1"
 
